@@ -1,0 +1,17 @@
+{
+  "name": "nft-contract",
+  "version": "1.0.0",
+  "description": "ERC-721 NFT contract with tests and Dockerized environment",
+  "scripts": {
+    "test": "hardhat test --colors",
+    "compile": "hardhat compile"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "@openzeppelin/contracts": "^4.9.3",
+    "chai": "^4.3.7",
+    "ethereum-waffle": "^4.0.0",
+    "ethers": "^6.9.0",
+    "hardhat": "^2.16.0"
+  }
+}
