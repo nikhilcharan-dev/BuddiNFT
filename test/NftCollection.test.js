@@ -4,8 +4,8 @@ const { ethers } = require("hardhat");
 describe("NftCollection", function () {
     let Nft, nft, owner, addr1, addr2, addr3;
 
-    const NAME = "DemoNFT";
-    const SYMBOL = "DNFT";
+    const NAME = "BuddiNFT";
+    const SYMBOL = "BNFT";
     const MAX_SUPPLY = 5;
     const BASE_URI = "https://example.com/metadata/";
 
